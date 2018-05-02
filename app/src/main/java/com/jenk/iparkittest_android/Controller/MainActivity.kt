@@ -1,5 +1,6 @@
-package com.jenk.iparkittest_android
+package com.jenk.iparkittest_android.Controller
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.NavigationView
 import android.support.v4.view.GravityCompat
@@ -7,6 +8,7 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.jenk.iparkittest_android.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -55,16 +57,19 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_reservation -> {
-                // Handle the camera action
+
             }
             R.id.nav_signin -> {
+                val loginIntent = Intent(this, LoginUser::class.java)
+                startActivity(loginIntent)
 
             }
             R.id.nav_register -> {
 
             }
-            R.id.nav_reciept -> {
-
+            R.id.nav_receipt -> {
+                val receiptIntent = Intent(this, FindReciepts::class.java)
+                startActivity(receiptIntent)
             }
             R.id.nav_rateApp -> {
 

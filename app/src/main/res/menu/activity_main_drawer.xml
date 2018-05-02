@@ -7,27 +7,23 @@
         <item
             android:id="@+id/nav_reservation"
             android:tooltipText="@android:color/white"
-            android:title="Make Reservation" />
+            android:iconTint="@android:color/black"
+            android:title="@string/make_reservation" />
         <item
             android:id="@+id/nav_signin"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="@string/sign_in" />
         <item
             android:id="@+id/nav_register"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="@string/register" />
         <item
-            android:id="@+id/nav_reciept"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Reciept" />
+            android:id="@+id/nav_receipt"
+            android:title="@string/receipt" />
         <item
             android:id="@+id/nav_rateApp"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Rate" />
+            android:title="@string/rate_app" />
         <item
             android:id="@+id/nav_contactUs"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Contact" />
+            android:title="@string/contact_us" />
     </group>
 
 

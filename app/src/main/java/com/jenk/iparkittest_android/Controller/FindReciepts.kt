@@ -1,7 +1,8 @@
-package com.jenk.iparkittest_android
+package com.jenk.iparkittest_android.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.jenk.iparkittest_android.R
 
 class FindReciepts : AppCompatActivity() {
 
