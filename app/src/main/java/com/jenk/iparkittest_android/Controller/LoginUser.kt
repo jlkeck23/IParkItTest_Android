@@ -18,16 +18,16 @@ class LoginUser : AppCompatActivity() {
 
 
 
-    fun enableSpinner(enable: Boolean){
-        if(enable){
-            loginSpinner.visibility = View.VISIBLE
-        }
-        else{
-            loginSpinner.visibility = View.INVISIBLE
-        }
-        userLoginEmailTxt.isEnabled = !enable
-        userLoginPasswordTxt.isEnabled = !enable
-        userLoginForgotBtn.isEnabled =!enable
-        userLoginSignInBtn.isEnabled = !enable
-    }
+//    fun enableSpinner(enable: Boolean){
+//        if(enable){
+//            loginSpinner.visibility = View.VISIBLE
+//        }
+//        else{
+//            loginSpinner.visibility = View.INVISIBLE
+//        }
+//        userLoginEmailTxt.isEnabled = !enable
+//        userLoginPasswordTxt.isEnabled = !enable
+//        userLoginForgotBtn.isEnabled =!enable
+//        userLoginSignInBtn.isEnabled = !enable
+//    }
 }
